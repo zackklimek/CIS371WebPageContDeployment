@@ -1,1 +1,131 @@
-Hello World
+<html>
+	<head>
+		<title>Assignment 1</title>
+		<link rel="stylesheet" href="./index.css" />
+	</head>
+	<body>
+        <div id="header">
+            <h2>Zack Klimek <img id="headingimg" src="assets/area1.jpeg"></h2>
+        </div>
+		<div id="page">
+            <div id="area1"><img id="area1img" src="assets/area1.jpeg"></div>
+            <div id="area2">
+                <div id="subarea">
+                    <h3>Zack Klimek</h3>
+                    <h4><img id="phoneimg" src="assets/phone_icon.png"/> (555)-555-5555 </h4>
+                </div>
+            </div>
+            <div id="area3">
+                <h3>Report</h3>
+                <p>This webpage uses CSS Grid to organize its
+                    contents, dividing the page into four rows and five
+                    columns of different sizes. Area 1 centers its image using
+                    the "display:flex" and "justify-content:center" properties. Additionally,
+                    the image in Area 1's selector is modified with a height less than 100px,
+                    accouting for the padding around each div. Area 2 includes two headers, 
+                    centered both vertically and horizontally with a nested div. Area 3's overflow
+                    property is set as 'scroll,' containing text to the div without 
+                    cutting any of the report out. Table 4 contains a centered table element,
+                    with its tr and td elements styled to have borders, color-banded rows,
+                    and change colors on hover.
+                </p>
+                <p>
+                    Area 5 contains an image of the OSI Model related to CIS 457, that scales its
+                    width with respect to the browser window. Area 6 builds a list of companies, represented
+                    by abbreviations, in a <b>ul</b>. Each <b>li</b> is an anchor tag
+                    that links to each company's homepage. Area 6 centers its contents both vertically 
+                    and horizontally by using the 'subarea' with a nested div, as introduced in Area 2.
+                    Area 7 includes excerpts from GVSU's Java Coding Style Guide, included as a source with an
+                    anchor tag in the header. Area 7 includes text from the guide to display use of the <b>b</b>,
+                    <b>i</b>, and <b>code</b> tags. Area 8 contains 6 <b>img</b> tags embedded within <b>a</b> tags, linking to each platform.
+                </p>
+            </div>
+            <div id="area4">
+                        <table id="area4table">
+                            <tr>
+                                <td>Course Number</td>
+                                <td>Course Name</td>
+                                <td>Course Semester</td>
+                            </tr>
+                            <tr>
+                                <td>457</td>
+                                <td>Data Communications</td>
+                                <td>Fall 2022</td>
+                            </tr>
+                            <tr>
+                                <td>467</td>
+                                <td>Computer Science Project</td>
+                                <td>Fall 2022</td>
+                            </tr>
+                             <tr>
+                                <td>490</td>
+                                <td>Internship</td>
+                                <td>Spring/Summer 2022</td>
+                            </tr>
+                            <tr>
+                                <td>452</td>
+                                <td>Operating Systems</td>
+                                <td>Winter 2022</td>
+                            </tr>
+                            <tr>
+                                <td>335</td>
+                                <td>Data Mining</td>
+                                <td>Winter 2022</td>
+                            </tr>
+                            
+                        </table>
+                    </div>
+            <div id="area5">
+                <div id="subarearow"><img id="area5img" src="assets/osimodel.jpg"></div>
+                <!-- source: https://blog.smartbuildingsacademy.com/what-is-the-osi-model -->
+            </div>
+            <div id="area6">
+                <div id="subarea">
+                    <h3>Companies</h3>
+                    <ul>
+                        <li><a href="https://www.apple.com/">AAPL</a></li>
+                        <li><a href="https://www.ibm.com/">IBM</a></li>
+                        <li><a href="https://www.meta.com/"">META</a></li>
+                        <li><a href="https://www.microsoft.com/"">MSFT</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="area7">
+                <h4>Source: Exerpt from GVSU's <a href="https://www.gvsu.edu/computing/java-coding-style-guide-37.htm">Java Coding Style Guide</a></h4>
+                <p>
+                    The <i>size</i>, <i>age</i>, and <i>complexity</i> of software is growing. Programmers now spend more time reading, maintaining, and enhancing code than 
+                    they do writing original code. Therefore, it is critical that a professional programmer not only be able to write efficient and 
+                    correct code, but it must also be written in a style that others can understand.
+                </p>
+                <p>Coding standards are used by an organization to help everyone work more reliably together, improve quality, reduce development time, 
+                    and allow quicker maintenance. Your guiding principle when writing code should be whether the reader will easily understand what 
+                    you mean and what the code does. <b>Well-designed, well-written code is a joy to debug, maintain, and enhance.</b></p>
+                <hr>
+                <h5>Comments</h5>
+                <ul>
+                    <li>Comments should be used to give overviews of code and provide additional information that is not readily available in the code itself. 
+                        Comments should contain only information that is relevant to reading and understanding the program. Avoid duplicating information that 
+                        is clearly evident in the code.
+                    </li>
+                    <li>Javadoc comment must begin with <code>/**</code> and end with <code>*/</code></li>
+                </ul>
+                <h5>Method Headers</h5>
+                <ul>
+                    <li>
+                    Provide headers for every method that includes horizontal lines to make the header visually distinctive.
+                        Use two blanks lines before each method header. Use Javadoc <code>@param</code>, <code>@return</code>,
+                        and <code>@throws</code> tags where appropriate. See sample code below.
+                    </li>
+                </ul>
+            </div>
+            <div id="area8">
+                <a href="https://www.amazon.com"><img id="icon" src="assets/amazon_icon.png"></a>
+                <a href="https://www.github.com"><img id="icon" src="assets/github_icon.png"></a>
+                <a href="https://www.hackerrank.com"><img id="icon" src="assets/hackerrank_icon.jpeg"></a>
+                <a href="https://www.kaggle.com"><img id="icon" src="assets/kaggle_icon.png"></a>
+                <a href="https://www.linkedin.com"><img id="icon" src="assets/linkedin_icon.png"></a>
+                <a href="https://www.twitter.com"><img id="icon" src="assets/twitter_icon.png"></a>
+            </div>
+        </div>
+	</body>
+</html>
