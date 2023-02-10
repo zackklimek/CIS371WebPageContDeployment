@@ -1,7 +1,8 @@
 <html>
 	<head>
 		<title>Assignment 1</title>
-		<link rel="stylesheet" href="./index.css" />
+		<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <link rel="stylesheet" href="./index.css" />
 	</head>
 	<body>
         <div id="header">
@@ -40,41 +41,7 @@
                     <b>i</b>, and <b>code</b> tags. Area 8 contains 6 <b>img</b> tags embedded within <b>a</b> tags, linking to each platform.
                 </p>
             </div>
-            <div id="area4">
-                        <table id="area4table">
-                            <tr>
-                                <td>Course Number</td>
-                                <td>Course Name</td>
-                                <td>Course Semester</td>
-                            </tr>
-                            <tr>
-                                <td>457</td>
-                                <td>Data Communications</td>
-                                <td>Fall 2022</td>
-                            </tr>
-                            <tr>
-                                <td>467</td>
-                                <td>Computer Science Project</td>
-                                <td>Fall 2022</td>
-                            </tr>
-                             <tr>
-                                <td>490</td>
-                                <td>Internship</td>
-                                <td>Spring/Summer 2022</td>
-                            </tr>
-                            <tr>
-                                <td>452</td>
-                                <td>Operating Systems</td>
-                                <td>Winter 2022</td>
-                            </tr>
-                            <tr>
-                                <td>335</td>
-                                <td>Data Mining</td>
-                                <td>Winter 2022</td>
-                            </tr>
-                            
-                        </table>
-                    </div>
+            <div id="area4-table"></div>
             <div id="area5">
                 <div id="subarearow"><img id="area5img" src="assets/osimodel.jpg"></div>
                 <!-- source: https://blog.smartbuildingsacademy.com/what-is-the-osi-model -->
@@ -82,12 +49,7 @@
             <div id="area6">
                 <div id="subarea">
                     <h3>Companies</h3>
-                    <ul>
-                        <li><a href="https://www.apple.com/">AAPL</a></li>
-                        <li><a href="https://www.ibm.com/">IBM</a></li>
-                        <li><a href="https://www.meta.com/"">META</a></li>
-                        <li><a href="https://www.microsoft.com/"">MSFT</a></li>
-                    </ul>
+                    <div id="area6-ul"></div>
                 </div>
             </div>
             <div id="area7">
@@ -118,14 +80,8 @@
                     </li>
                 </ul>
             </div>
-            <div id="area8">
-                <a href="https://www.amazon.com"><img id="icon" src="assets/amazon_icon.png"></a>
-                <a href="https://www.github.com"><img id="icon" src="assets/github_icon.png"></a>
-                <a href="https://www.hackerrank.com"><img id="icon" src="assets/hackerrank_icon.jpeg"></a>
-                <a href="https://www.kaggle.com"><img id="icon" src="assets/kaggle_icon.png"></a>
-                <a href="https://www.linkedin.com"><img id="icon" src="assets/linkedin_icon.png"></a>
-                <a href="https://www.twitter.com"><img id="icon" src="assets/twitter_icon.png"></a>
-            </div>
+            <div id="area8"></div>
         </div>
+        <script type="text/babel" src="mycode.ts" />
 	</body>
 </html>
